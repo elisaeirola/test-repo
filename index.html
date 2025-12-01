@@ -3,8 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div>This is a test page</div>
+    <div id="content"></div>
 </body>
+<script>
+    async function loadMarkdown(filename, componentId) {
+    const response = await fetch(filename);
+    const text = await response.text();
+    document.getElementById(componentId).innerHTML = marked.parse(text);
+    }
+    loadMarkdown('my_idea.md', 'content');
+</script>
 </html>
