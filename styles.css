@@ -1,6 +1,6 @@
 /* General Page Styling */
 body {
-    background: linear-gradient(100deg, rgb(194, 163, 241), rgb(108, 88, 221));
+    background: linear-gradient(200deg, rgb(194, 163, 241), rgb(108, 88, 221));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(36, 0, 128);
     text-align: center;
@@ -8,3 +8,10 @@ body {
     padding: 20px;
 }
 
+/* Heading */
+h1 {
+    font-size: 50px;
+    color: rgb(36, 0, 128);
+    font-weight: bolder;
+    text-emphasis-color: var(100deg);
+}
