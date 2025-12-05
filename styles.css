@@ -10,8 +10,9 @@ body {
 
 /* Heading */
 h1 {
-    font-size: 50px;
-    color: rgb(36, 0, 128);
-    font-weight: bolder;
-    text-emphasis-color: var(100deg);
+    font-size: 200px;
+    color: black;
+    text-decoration-color: rgb(162, 115, 232);
+    font-family: Cochin;
+    font-weight: bold
 }
