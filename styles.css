@@ -1,13 +1,10 @@
 /* General Page Styling */
-
 body {
-    margin: 0;
-    height: 720px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(222, 207, 245);
+    background: linear-gradient(100deg, rgb(194, 163, 241), rgb(108, 88, 221));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(36, 0, 128);
     text-align: center;
+    justify-content: center;
     padding: 20px;
 }
 
