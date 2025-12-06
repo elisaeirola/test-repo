@@ -10,8 +10,16 @@
     <div>
         <h1>Welcome to this Website!</h1>
         <h2>This page will teach you the basics about heritage management.</h2>
+        But first, here's some 
     </div>
     <div id="content"></div>
+    <button onclick="loadMarkdown('page1.md', 'content'); makeBackgroundBlue();"
+     style="color: rgb(36, 0, 128); background-color: rgb(194, 163, 241);"
+    >
+     Open Page 1
+    </button>
+    <div id="content">
+    </div>
 </body>
 <script>
     async function loadMarkdown(filename, componentId) {
