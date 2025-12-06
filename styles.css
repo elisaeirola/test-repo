@@ -1,6 +1,6 @@
 /* General Page Styling */
 body {
-    background: linear-gradient(200deg, rgb(194, 163, 241), rgb(108, 88, 221));
+    background: linear-gradient(200deg, rgb(158, 208, 239), rgb(88, 170, 221));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(36, 0, 128);
     font-size: medium;
@@ -13,7 +13,7 @@ body {
 h1 {
     font-size: 55px;
     color: rgb(36, 0, 128);
-    text-shadow: rgb(162, 115, 232);
+    text-shadow: rgb(112, 107, 243);
     font-family: Cochin;
     font-weight: bold
 }
