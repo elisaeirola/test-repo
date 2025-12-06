@@ -15,5 +15,11 @@ h1 {
     color: rgb(36, 0, 128);
     text-shadow: rgb(112, 107, 243);
     font-family: Cochin;
-    font-weight: bold
+    font-weight: bolder
+}
+
+h2 {
+    font-size: large;
+    color: rgb(36, 0, 128);
+    font-family: Cochin;
 }
