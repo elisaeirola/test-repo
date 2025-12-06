@@ -3,16 +3,17 @@ body {
     background: linear-gradient(200deg, rgb(194, 163, 241), rgb(108, 88, 221));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(36, 0, 128);
+    font-size: medium;
     text-align: center;
     justify-content: center;
     padding: 20px;
 }
 
-/* Heading */
+/* Headings */
 h1 {
-    font-size: 200px;
-    color: black;
-    text-decoration-color: rgb(162, 115, 232);
+    font-size: 55px;
+    color: rgb(36, 0, 128);
+    text-shadow: rgb(162, 115, 232);
     font-family: Cochin;
     font-weight: bold
 }
