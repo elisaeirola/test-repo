@@ -10,8 +10,8 @@
     <div>
         <h1>Welcome to my Website!</h1>
         <h2>This page will teach you the basics about heritage management.</h2>
-        <h2>But first, here's a joke:</h2>
-        <h2 id="joke"></h2>
+        <h2>But first, here's a fox to guide you on your way:</h2>
+        <h2 id="fox-image"></h2>
     </div>
     <div id="content"></div>
     <button onclick="loadMarkdown('page1.md', 'content');"
@@ -30,11 +30,11 @@
     loadMarkdown('my_idea.md', 'content');
 </script>
 <script>
-    async function getJoke(){
-    const response = await fetch('https://punapi.rest/jokes/random');
+    async function displayImage(){
+    const response = await fetch('https://randomfox.ca/floof/');
     const data = await response.json();
-    document.getElementById("joke").innerHTML = data.joke;
+    document.getElementById("fox-image").src = data.image;
   }
-  getJoke();
+  displayImage();
 </script>
 </html>
