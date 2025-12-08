@@ -31,7 +31,7 @@
 </script>
 <script>
     async function getJoke(){
-    const response = await fetch('https://icanhazdadjoke.com/');
+    const response = await fetch('https://icanhazdadjoke.com/j');
     const data = await response.json();
     document.getElementById("joke").innerHTML = data.joke;
   }
