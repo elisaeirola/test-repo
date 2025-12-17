@@ -6,7 +6,7 @@ body {
     font-size: 17px;
     text-align: center;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 /* Headings */
@@ -36,4 +36,12 @@ button {
     border-color: rgb(36, 0, 128);
     border-radius: 10px;
     border-width: 5px;
+}
+
+/* Images */
+img {
+    padding-bottom: 10px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
