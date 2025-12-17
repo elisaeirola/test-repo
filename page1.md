@@ -26,6 +26,6 @@ Heritage management practitioners can also make use of APIs in their work. One s
 
 These APIs can be useful for heritage practitioners, as they allow the user to have access to a vast range of heritage item collections. This opens up several potential avenues of work. For example, a heritage practitioner can gather information on a specific time period in a specific country. By accessing the Europeana APIs, they are able to search for and examine the information in a digital, easily accessible format. Often, there are full recreations of heritage objects or heritage sites in these collections, which can be examined in detail without having to travel to a different country.
 
-Below is an image showing examples of cultural heritage around Europe.
+Below is an image with examples of cultural heritage around Europe.
 
 <img src="photo2.jpg" style="width: 1000px; height: auto;" alt="European Heritage">
