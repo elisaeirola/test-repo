@@ -10,9 +10,11 @@
     <div>
         <h1>Sustainable Heritage Management</h1>
         <h2>This page will teach you the basics about heritage management</h2>
-        <h2>But first, here's a fox to guide you on your way:</h2>
-        <img id="fox-image" src="" alt="" style="height: 400px; width: auto;">
     </div>
+    
+    <h2>But first, here's a fox to guide you on your way:</h2>
+    <img id="fox-image" src="" alt="" style="height: 400px; width: auto;">
+   
     <div id="content"></div>
     <button onclick="loadMarkdown('page1.md', 'content');"
      style="color: rgb(36, 0, 128); background-color: rgb(40, 138, 199); font-family: Cochin;">
@@ -20,16 +22,16 @@
     </button>
     <div id="content">
     </div>
-    <button onclick="loadMarkdown('my_idea.md', 'content');"
-     style="color: rgb(36, 0, 128); background-color: rgb(40, 138, 199); font-family: Cochin;">
-     Open What is Heritage Management?
-    </button>
-     <div id="content"></div>
     <button onclick="loadMarkdown('page2.md', 'content');"
      style="color: rgb(36, 0, 128); background-color: rgb(40, 138, 199); font-family: Cochin;">
      Open Reflection
     </button>
      <div id="content"></div>
+     <button onclick="loadMarkdown('my_idea.md', 'content');"
+     style="color: rgb(36, 0, 128); background-color: rgb(40, 138, 199); font-family: Cochin;">
+     Go Back to Homepage
+    </button>
+    <div id="content"></div>
 </body>
 <script>
     async function loadMarkdown(filename, componentId) {
