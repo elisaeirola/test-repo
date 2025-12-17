@@ -9,7 +9,7 @@ While tangible forms of heritage, such as buildings, monuments or objects, can b
 
 Heritage management can take place on a larger or smaller scale. There are so-called ‘World Heritage Sites’, controlled by UNESCO. Each state aims to ensure “the identification, protection, conservation, presentation and transmission to future generations of the cultural and natural heritage” (UNESCO 1972: 3) present within their region and community.
 
-Below is a picture of what could be considered "World Heritage".
+Below is an image of what could be considered "World Heritage".
 
 <img src="photo.jpg" style="width: 1000px; height: auto;" alt="World Heritage">
 
