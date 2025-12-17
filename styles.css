@@ -3,10 +3,10 @@ body {
     background: linear-gradient(200deg, rgb(194, 163, 241), rgb(88, 170, 221));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(36, 0, 128);
-    font-size: medium;
+    font-size: 15px;
     text-align: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Headings */
@@ -31,8 +31,9 @@ button {
     color: rgb(36, 0, 128);
     background-color: rgb(40, 138, 199);
     font-family: Cochin;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     border-color: rgb(36, 0, 128);
     border-radius: 10px;
+    border-width: 5px;
 }
