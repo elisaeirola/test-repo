@@ -9,6 +9,8 @@ body {
     padding: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Headings */
