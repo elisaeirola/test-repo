@@ -6,7 +6,7 @@ body {
     font-size: 18px;
     text-align: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* Headings */
@@ -41,5 +41,4 @@ button {
 /* Images */
 img {
     margin: 10px;
-    padding: 10px;
 }
